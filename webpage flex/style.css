@@ -1,0 +1,178 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#fff;
+}
+
+/* NAVBAR */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    background:#2b2b2b;
+    color:white;
+}
+
+.navbar ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+/* HERO */
+.hero{
+    height:90vh;
+    background:url(https://funcakes.com/content/uploads/2023/06/Ice-cream-recipe-960x540-c-default.jpg) center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero-content{
+    background:rgba(0,0,0,0.6);
+    padding:40px;
+    border-radius:10px;
+}
+
+.hero h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.hero button{
+    padding:12px 25px;
+    border:none;
+    background:rgb(0, 0, 0);
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+/* SECTION */
+.section{
+    padding:60px 40px;
+    text-align:center;
+}
+
+.section h2{
+    font-size:32px;
+    margin-bottom:30px;
+}
+
+/* PRODUCTS */
+.products{
+    display:flex;
+    gap:25px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:280px;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:15px 0 5px;
+}
+
+.card p{
+    padding:0 15px 15px;
+    color:#555;
+}
+
+/* ABOUT */
+.about{
+
+    display:flex;
+    justify-content:center;
+}
+
+.about-box{
+    max-width:800px;
+    
+    padding:30px;
+    border-radius:10px;
+    
+}
+
+/* TESTIMONIALS */
+.testimonials{
+    display:flex;
+    gap:25px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.test{
+    width:300px;
+    padding:25px;
+    background:white;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    border-radius:10px;
+}
+
+.test p{
+    font-style:italic;
+}
+
+/* CONTACT */
+.contact{
+    display:flex;
+    justify-content:center;
+}
+
+.form-box{
+    width:450px;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:rgb(15, 15, 15);
+    border:none;
+    color:white;
+    font-size:16px;
+}
+
+
